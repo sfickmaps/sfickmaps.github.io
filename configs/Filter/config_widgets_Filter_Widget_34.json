@@ -1,0 +1,791 @@
+{
+  "taskOper": "OR",
+  "groupByLayer": false,
+  "zoomto": false,
+  "zoombackto": true,
+  "allowCustom": false,
+  "allowResetAll": true,
+  "allowTurnOffAll": false,
+  "filters": [
+    {
+      "layerId": "Points_of_Interest_in_the_City_of_Toronto_5031",
+      "url": "https://services7.arcgis.com/AHJOWTX3sFcnmA9U/arcgis/rest/services/Points_of_Interest_in_the_City_of_Toronto/FeatureServer/0",
+      "name": "Performing Arts",
+      "filter": {
+        "logicalOperator": "AND",
+        "parts": [
+          {
+            "fieldObj": {
+              "name": "CATEGORY",
+              "label": "CATEGORY",
+              "dateFormat": "",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIs",
+            "valueObj": {
+              "isValid": true,
+              "type": "unique",
+              "value": "Performing Arts"
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "CATEGORY = 'Performing Arts'",
+            "expr": "CATEGORY = 'Performing Arts'"
+          }
+        ],
+        "expr": "CATEGORY = 'Performing Arts'",
+        "displaySQL": "CATEGORY = 'Performing Arts'"
+      },
+      "icon": null,
+      "enableMapFilter": true,
+      "autoApplyWhenWidgetOpen": false,
+      "collapse": false,
+      "symbol": {
+        "color": [
+          168,
+          0,
+          132,
+          191
+        ],
+        "size": 18,
+        "angle": 0,
+        "xoffset": 0,
+        "yoffset": 0,
+        "type": "esriSMS",
+        "style": "esriSMSCircle",
+        "outline": {
+          "color": [
+            26,
+            26,
+            26,
+            255
+          ],
+          "width": 0.75,
+          "type": "esriSLS",
+          "style": "esriSLSSolid"
+        }
+      }
+    },
+    {
+      "layerId": "Points_of_Interest_in_the_City_of_Toronto_5031",
+      "url": "https://services7.arcgis.com/AHJOWTX3sFcnmA9U/arcgis/rest/services/Points_of_Interest_in_the_City_of_Toronto/FeatureServer/0",
+      "name": "Museum",
+      "filter": {
+        "logicalOperator": "AND",
+        "parts": [
+          {
+            "fieldObj": {
+              "name": "CATEGORY",
+              "label": "CATEGORY",
+              "dateFormat": "",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIs",
+            "valueObj": {
+              "isValid": true,
+              "type": "unique",
+              "value": "Museum"
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "CATEGORY = 'Museum'",
+            "expr": "CATEGORY = 'Museum'"
+          }
+        ],
+        "expr": "CATEGORY = 'Museum'",
+        "displaySQL": "CATEGORY = 'Museum'"
+      },
+      "icon": null,
+      "enableMapFilter": true,
+      "autoApplyWhenWidgetOpen": false,
+      "collapse": false,
+      "symbol": {
+        "color": [
+          169,
+          0,
+          230,
+          189
+        ],
+        "size": 18,
+        "angle": 0,
+        "xoffset": 0,
+        "yoffset": 0,
+        "type": "esriSMS",
+        "style": "esriSMSCircle",
+        "outline": {
+          "color": [
+            26,
+            26,
+            26,
+            255
+          ],
+          "width": 0.75,
+          "type": "esriSLS",
+          "style": "esriSLSSolid"
+        }
+      }
+    },
+    {
+      "layerId": "Points_of_Interest_in_the_City_of_Toronto_5031",
+      "url": "https://services7.arcgis.com/AHJOWTX3sFcnmA9U/arcgis/rest/services/Points_of_Interest_in_the_City_of_Toronto/FeatureServer/0",
+      "name": "Featured Park",
+      "filter": {
+        "logicalOperator": "AND",
+        "parts": [
+          {
+            "fieldObj": {
+              "name": "CATEGORY",
+              "label": "CATEGORY",
+              "dateFormat": "",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIs",
+            "valueObj": {
+              "isValid": true,
+              "type": "unique",
+              "value": "Featured Park"
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "CATEGORY = 'Featured Park'",
+            "expr": "CATEGORY = 'Featured Park'"
+          }
+        ],
+        "expr": "CATEGORY = 'Featured Park'",
+        "displaySQL": "CATEGORY = 'Featured Park'"
+      },
+      "icon": null,
+      "enableMapFilter": true,
+      "autoApplyWhenWidgetOpen": false,
+      "collapse": false,
+      "symbol": {
+        "color": [
+          38,
+          115,
+          0,
+          191
+        ],
+        "size": 18,
+        "angle": 0,
+        "xoffset": 0,
+        "yoffset": 0,
+        "type": "esriSMS",
+        "style": "esriSMSCircle",
+        "outline": {
+          "color": [
+            26,
+            26,
+            26,
+            255
+          ],
+          "width": 0.75,
+          "type": "esriSLS",
+          "style": "esriSLSSolid"
+        }
+      }
+    },
+    {
+      "layerId": "Points_of_Interest_in_the_City_of_Toronto_5031",
+      "url": "https://services7.arcgis.com/AHJOWTX3sFcnmA9U/arcgis/rest/services/Points_of_Interest_in_the_City_of_Toronto/FeatureServer/0",
+      "name": "Attraction",
+      "filter": {
+        "logicalOperator": "AND",
+        "parts": [
+          {
+            "fieldObj": {
+              "name": "CATEGORY",
+              "label": "CATEGORY",
+              "dateFormat": "",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIs",
+            "valueObj": {
+              "isValid": true,
+              "type": "unique",
+              "value": "Attraction"
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "CATEGORY = 'Attraction'",
+            "expr": "CATEGORY = 'Attraction'"
+          }
+        ],
+        "expr": "CATEGORY = 'Attraction'",
+        "displaySQL": "CATEGORY = 'Attraction'"
+      },
+      "icon": null,
+      "enableMapFilter": true,
+      "autoApplyWhenWidgetOpen": false,
+      "collapse": false,
+      "symbol": {
+        "color": [
+          115,
+          0,
+          0,
+          191
+        ],
+        "size": 18,
+        "angle": 0,
+        "xoffset": 0,
+        "yoffset": 0,
+        "type": "esriSMS",
+        "style": "esriSMSCircle",
+        "outline": {
+          "color": [
+            26,
+            26,
+            26,
+            255
+          ],
+          "width": 0.75,
+          "type": "esriSLS",
+          "style": "esriSLSSolid"
+        }
+      }
+    },
+    {
+      "layerId": "Points_of_Interest_in_the_City_of_Toronto_5031",
+      "url": "https://services7.arcgis.com/AHJOWTX3sFcnmA9U/arcgis/rest/services/Points_of_Interest_in_the_City_of_Toronto/FeatureServer/0",
+      "name": "Landmark",
+      "filter": {
+        "logicalOperator": "AND",
+        "parts": [
+          {
+            "fieldObj": {
+              "name": "CATEGORY",
+              "label": "CATEGORY",
+              "dateFormat": "",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIs",
+            "valueObj": {
+              "isValid": true,
+              "type": "unique",
+              "value": "Landmark"
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "CATEGORY = 'Landmark'",
+            "expr": "CATEGORY = 'Landmark'"
+          }
+        ],
+        "expr": "CATEGORY = 'Landmark'",
+        "displaySQL": "CATEGORY = 'Landmark'"
+      },
+      "icon": null,
+      "enableMapFilter": true,
+      "autoApplyWhenWidgetOpen": false,
+      "collapse": false,
+      "symbol": {
+        "color": [
+          115,
+          76,
+          0,
+          191
+        ],
+        "size": 18,
+        "angle": 0,
+        "xoffset": 0,
+        "yoffset": 0,
+        "type": "esriSMS",
+        "style": "esriSMSCircle",
+        "outline": {
+          "color": [
+            26,
+            26,
+            26,
+            255
+          ],
+          "width": 0.75,
+          "type": "esriSLS",
+          "style": "esriSLSSolid"
+        }
+      }
+    },
+    {
+      "layerId": "Points_of_Interest_in_the_City_of_Toronto_5031",
+      "url": "https://services7.arcgis.com/AHJOWTX3sFcnmA9U/arcgis/rest/services/Points_of_Interest_in_the_City_of_Toronto/FeatureServer/0",
+      "name": "Beach",
+      "filter": {
+        "logicalOperator": "AND",
+        "parts": [
+          {
+            "fieldObj": {
+              "name": "CATEGORY",
+              "label": "CATEGORY",
+              "dateFormat": "",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIs",
+            "valueObj": {
+              "isValid": true,
+              "type": "unique",
+              "value": "Beach"
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "CATEGORY = 'Beach'",
+            "expr": "CATEGORY = 'Beach'"
+          }
+        ],
+        "expr": "CATEGORY = 'Beach'",
+        "displaySQL": "CATEGORY = 'Beach'"
+      },
+      "icon": null,
+      "enableMapFilter": true,
+      "autoApplyWhenWidgetOpen": false,
+      "collapse": false,
+      "symbol": {
+        "color": [
+          255,
+          255,
+          115,
+          189
+        ],
+        "size": 18,
+        "angle": 0,
+        "xoffset": 0,
+        "yoffset": 0,
+        "type": "esriSMS",
+        "style": "esriSMSCircle",
+        "outline": {
+          "color": [
+            26,
+            26,
+            26,
+            255
+          ],
+          "width": 0.75,
+          "type": "esriSLS",
+          "style": "esriSLSSolid"
+        }
+      }
+    },
+    {
+      "layerId": "Points_of_Interest_in_the_City_of_Toronto_5031",
+      "url": "https://services7.arcgis.com/AHJOWTX3sFcnmA9U/arcgis/rest/services/Points_of_Interest_in_the_City_of_Toronto/FeatureServer/0",
+      "name": "Gallery",
+      "filter": {
+        "logicalOperator": "AND",
+        "parts": [
+          {
+            "fieldObj": {
+              "name": "CATEGORY",
+              "label": "CATEGORY",
+              "dateFormat": "",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIs",
+            "valueObj": {
+              "isValid": true,
+              "type": "unique",
+              "value": "Gallery"
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "CATEGORY = 'Gallery'",
+            "expr": "CATEGORY = 'Gallery'"
+          }
+        ],
+        "expr": "CATEGORY = 'Gallery'",
+        "displaySQL": "CATEGORY = 'Gallery'"
+      },
+      "icon": null,
+      "enableMapFilter": true,
+      "autoApplyWhenWidgetOpen": false,
+      "collapse": false,
+      "symbol": {
+        "color": [
+          230,
+          152,
+          0,
+          186
+        ],
+        "size": 18,
+        "angle": 0,
+        "xoffset": 0,
+        "yoffset": 0,
+        "type": "esriSMS",
+        "style": "esriSMSCircle",
+        "outline": {
+          "color": [
+            26,
+            26,
+            26,
+            255
+          ],
+          "width": 0.75,
+          "type": "esriSLS",
+          "style": "esriSLSSolid"
+        }
+      }
+    },
+    {
+      "layerId": "Points_of_Interest_in_the_City_of_Toronto_5031",
+      "url": "https://services7.arcgis.com/AHJOWTX3sFcnmA9U/arcgis/rest/services/Points_of_Interest_in_the_City_of_Toronto/FeatureServer/0",
+      "name": "Sports / Entertainment Venue",
+      "filter": {
+        "logicalOperator": "AND",
+        "parts": [
+          {
+            "fieldObj": {
+              "name": "CATEGORY",
+              "label": "CATEGORY",
+              "dateFormat": "",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIs",
+            "valueObj": {
+              "isValid": true,
+              "type": "unique",
+              "value": "Sports / Entertainment Venue"
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "CATEGORY = 'Sports / Entertainment Venue'",
+            "expr": "CATEGORY = 'Sports / Entertainment Venue'"
+          }
+        ],
+        "expr": "CATEGORY = 'Sports / Entertainment Venue'",
+        "displaySQL": "CATEGORY = 'Sports / Entertainment Venue'"
+      },
+      "icon": null,
+      "enableMapFilter": true,
+      "autoApplyWhenWidgetOpen": false,
+      "collapse": false,
+      "symbol": {
+        "color": [
+          0,
+          169,
+          230,
+          189
+        ],
+        "size": 18,
+        "angle": 0,
+        "xoffset": 0,
+        "yoffset": 0,
+        "type": "esriSMS",
+        "style": "esriSMSCircle",
+        "outline": {
+          "color": [
+            26,
+            26,
+            26,
+            255
+          ],
+          "width": 0.75,
+          "type": "esriSLS",
+          "style": "esriSLSSolid"
+        }
+      }
+    },
+    {
+      "layerId": "Points_of_Interest_in_the_City_of_Toronto_5031",
+      "url": "https://services7.arcgis.com/AHJOWTX3sFcnmA9U/arcgis/rest/services/Points_of_Interest_in_the_City_of_Toronto/FeatureServer/0",
+      "name": "Garden / Conservatory",
+      "filter": {
+        "logicalOperator": "AND",
+        "parts": [
+          {
+            "fieldObj": {
+              "name": "CATEGORY",
+              "label": "CATEGORY",
+              "dateFormat": "",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIs",
+            "valueObj": {
+              "isValid": true,
+              "type": "unique",
+              "value": "Garden / Conservatory"
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "CATEGORY = 'Garden / Conservatory'",
+            "expr": "CATEGORY = 'Garden / Conservatory'"
+          }
+        ],
+        "expr": "CATEGORY = 'Garden / Conservatory'",
+        "displaySQL": "CATEGORY = 'Garden / Conservatory'"
+      },
+      "icon": null,
+      "enableMapFilter": true,
+      "autoApplyWhenWidgetOpen": false,
+      "collapse": false,
+      "symbol": {
+        "color": [
+          170,
+          255,
+          0,
+          191
+        ],
+        "size": 18,
+        "angle": 0,
+        "xoffset": 0,
+        "yoffset": 0,
+        "type": "esriSMS",
+        "style": "esriSMSCircle",
+        "outline": {
+          "color": [
+            26,
+            26,
+            26,
+            255
+          ],
+          "width": 0.75,
+          "type": "esriSLS",
+          "style": "esriSLSSolid"
+        }
+      }
+    },
+    {
+      "layerId": "Points_of_Interest_in_the_City_of_Toronto_5031",
+      "url": "https://services7.arcgis.com/AHJOWTX3sFcnmA9U/arcgis/rest/services/Points_of_Interest_in_the_City_of_Toronto/FeatureServer/0",
+      "name": "Convention & Trade Centres",
+      "filter": {
+        "logicalOperator": "AND",
+        "parts": [
+          {
+            "fieldObj": {
+              "name": "CATEGORY",
+              "label": "CATEGORY",
+              "dateFormat": "",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIs",
+            "valueObj": {
+              "isValid": true,
+              "type": "unique",
+              "value": "Convention & Trade Centres"
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "CATEGORY = 'Convention & Trade Centres'",
+            "expr": "CATEGORY = 'Convention & Trade Centres'"
+          }
+        ],
+        "expr": "CATEGORY = 'Convention & Trade Centres'",
+        "displaySQL": "CATEGORY = 'Convention & Trade Centres'"
+      },
+      "icon": null,
+      "enableMapFilter": true,
+      "autoApplyWhenWidgetOpen": false,
+      "collapse": false,
+      "symbol": {
+        "color": [
+          230,
+          76,
+          0,
+          189
+        ],
+        "size": 18,
+        "angle": 0,
+        "xoffset": 0,
+        "yoffset": 0,
+        "type": "esriSMS",
+        "style": "esriSMSCircle",
+        "outline": {
+          "color": [
+            26,
+            26,
+            26,
+            255
+          ],
+          "width": 0.75,
+          "type": "esriSLS",
+          "style": "esriSLSSolid"
+        }
+      }
+    },
+    {
+      "layerId": "Points_of_Interest_in_the_City_of_Toronto_5031",
+      "url": "https://services7.arcgis.com/AHJOWTX3sFcnmA9U/arcgis/rest/services/Points_of_Interest_in_the_City_of_Toronto/FeatureServer/0",
+      "name": "Transportation",
+      "filter": {
+        "logicalOperator": "AND",
+        "parts": [
+          {
+            "fieldObj": {
+              "name": "CATEGORY",
+              "label": "CATEGORY",
+              "dateFormat": "",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIs",
+            "valueObj": {
+              "isValid": true,
+              "type": "unique",
+              "value": "Transportation"
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "CATEGORY = 'Transportation'",
+            "expr": "CATEGORY = 'Transportation'"
+          }
+        ],
+        "expr": "CATEGORY = 'Transportation'",
+        "displaySQL": "CATEGORY = 'Transportation'"
+      },
+      "icon": null,
+      "enableMapFilter": true,
+      "autoApplyWhenWidgetOpen": false,
+      "collapse": false,
+      "symbol": {
+        "color": [
+          173,
+          173,
+          173,
+          191
+        ],
+        "size": 18,
+        "angle": 0,
+        "xoffset": 0,
+        "yoffset": 0,
+        "type": "esriSMS",
+        "style": "esriSMSCircle",
+        "outline": {
+          "color": [
+            26,
+            26,
+            26,
+            255
+          ],
+          "width": 0.75,
+          "type": "esriSLS",
+          "style": "esriSLSSolid"
+        }
+      }
+    },
+    {
+      "layerId": "Points_of_Interest_in_the_City_of_Toronto_5031",
+      "url": "https://services7.arcgis.com/AHJOWTX3sFcnmA9U/arcgis/rest/services/Points_of_Interest_in_the_City_of_Toronto/FeatureServer/0",
+      "name": "Shopping",
+      "filter": {
+        "logicalOperator": "AND",
+        "parts": [
+          {
+            "fieldObj": {
+              "name": "CATEGORY",
+              "label": "CATEGORY",
+              "dateFormat": "",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIs",
+            "valueObj": {
+              "isValid": true,
+              "type": "unique",
+              "value": "Shopping"
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "CATEGORY = 'Shopping'",
+            "expr": "CATEGORY = 'Shopping'"
+          }
+        ],
+        "expr": "CATEGORY = 'Shopping'",
+        "displaySQL": "CATEGORY = 'Shopping'"
+      },
+      "icon": null,
+      "enableMapFilter": true,
+      "autoApplyWhenWidgetOpen": false,
+      "collapse": false,
+      "symbol": {
+        "color": [
+          255,
+          190,
+          232,
+          191
+        ],
+        "size": 18,
+        "angle": 0,
+        "xoffset": 0,
+        "yoffset": 0,
+        "type": "esriSMS",
+        "style": "esriSMSCircle",
+        "outline": {
+          "color": [
+            26,
+            26,
+            26,
+            255
+          ],
+          "width": 0.75,
+          "type": "esriSLS",
+          "style": "esriSLSSolid"
+        }
+      }
+    },
+    {
+      "layerId": "Points_of_Interest_in_the_City_of_Toronto_5031",
+      "url": "https://services7.arcgis.com/AHJOWTX3sFcnmA9U/arcgis/rest/services/Points_of_Interest_in_the_City_of_Toronto/FeatureServer/0",
+      "name": "Visitor Information",
+      "filter": {
+        "logicalOperator": "AND",
+        "parts": [
+          {
+            "fieldObj": {
+              "name": "CATEGORY",
+              "label": "CATEGORY",
+              "dateFormat": "",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIs",
+            "valueObj": {
+              "isValid": true,
+              "type": "unique",
+              "value": "Visitor Information"
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "CATEGORY = 'Visitor Information'",
+            "expr": "CATEGORY = 'Visitor Information'"
+          }
+        ],
+        "expr": "CATEGORY = 'Visitor Information'",
+        "displaySQL": "CATEGORY = 'Visitor Information'"
+      },
+      "icon": null,
+      "enableMapFilter": true,
+      "autoApplyWhenWidgetOpen": false,
+      "collapse": false,
+      "symbol": {
+        "color": [
+          255,
+          255,
+          0,
+          191
+        ],
+        "size": 18,
+        "angle": 0,
+        "xoffset": 0,
+        "yoffset": 0,
+        "type": "esriSMS",
+        "style": "esriSMSCircle",
+        "outline": {
+          "color": [
+            26,
+            26,
+            26,
+            255
+          ],
+          "width": 0.75,
+          "type": "esriSLS",
+          "style": "esriSLSSolid"
+        }
+      }
+    }
+  ]
+}

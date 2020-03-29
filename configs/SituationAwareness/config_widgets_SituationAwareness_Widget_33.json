@@ -1,0 +1,83 @@
+{
+  "geocodeService": {
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer"
+  },
+  "enableRouting": true,
+  "bufferRange": {
+    "minimum": 0,
+    "_default": 0,
+    "maximum": 20
+  },
+  "distanceUnits": "kilometers",
+  "distanceSettings": {
+    "miles": 9035,
+    "kilometers": 9036,
+    "feet": 9002,
+    "meters": 9001,
+    "yards": 9037,
+    "nauticalMiles": 9030
+  },
+  "maxDistance": 15,
+  "defaultZoomLevel": 13,
+  "tabs": [
+    {
+      "label": "Places Nearby",
+      "type": "proximity",
+      "layerTitle": "Points of Interest in the City of Toronto",
+      "layers": "Points_of_Interest_in_the_City_of_Toronto_5031",
+      "advStat": {
+        "url": "https://services7.arcgis.com/AHJOWTX3sFcnmA9U/arcgis/rest/services/Points_of_Interest_in_the_City_of_Toronto/FeatureServer/0",
+        "stats": {
+          "outFields": [
+            {
+              "value": 0,
+              "expression": "TITLE",
+              "label": "",
+              "validLabel": true
+            },
+            {
+              "value": 0,
+              "expression": "CATEGORY",
+              "label": "",
+              "validLabel": true
+            },
+            {
+              "value": 0,
+              "expression": "WEBSITE",
+              "label": "",
+              "validLabel": true
+            }
+          ],
+          "tabCount": true
+        },
+        "fieldOrder": [
+          "TITLE",
+          "CATEGORY",
+          "WEBSITE"
+        ],
+        "analysisSummaryForReport": true,
+        "PopUpSummaryForReport": true
+      }
+    }
+  ],
+  "summaryDisplayEnabled": true,
+  "exportFieldsOptionForCSV": "popUpFields",
+  "incidentLabel": "Places of Interest",
+  "locateIncidentLabel": "Locate Places of Interest",
+  "bufferLabel": "Buffer Distance",
+  "disableVisibilityManagement": false,
+  "saveEnabled": false,
+  "savePoints": false,
+  "drawGeodesic": false,
+  "saveLines": false,
+  "savePolys": false,
+  "selectionColor": "#8c8c8c",
+  "snapshotEnabled": false,
+  "reportEnabled": false,
+  "reportSettings": {
+    "printTaskURL": "https://utility.arcgisonline.com/arcgis/rest/services/Utilities/PrintingTools/GPServer/Export%20Web%20Map%20Task",
+    "footnote": "",
+    "logo": "${appPath}/widgets/SituationAwareness/images/defaultLogo.png",
+    "textColor": "#0f96cc"
+  }
+}
